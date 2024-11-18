@@ -25,6 +25,6 @@ chrome.runtime.getURL("assets/<nombre de tu archivo.formato>")
 
 ---
 # LICENCIA:
-- [MIT LICENCE](https://github.com/v3laDev/Memes-Twitteros/blob/main/LICENSE)
+- [MIT LICENSE](https://github.com/v3laDev/Memes-Twitteros/blob/main/LICENSE)
 
 ---

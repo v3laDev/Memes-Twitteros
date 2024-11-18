@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nueva Pestaña</title>
+    
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto; /* Las imágenes pequeñas se mantendrán en su tamaño */
+      font-family: Arial, sans-serif;
+      transition: background-size 0.5s;
+      background-color: black;
+      color: white;
+      font-family: Arial;
+    }
+    
+
+    #search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #search-box {
+      width: 400px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #dcdcdc;
+      border-radius: 24px;
+      outline: none;
+    }
+    #search-button {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="search-container">
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" id="search-box" name="q" placeholder="Buscar en Google">
+      <button id="search-button" type="submit">Buscar</button>
+    </form>
+  </div>
+  <br>
+  <center>
+    <footer><a href="https://x.com/homicidiomental">Dev</a> <a href="https://x.com/modedwarfare">Idea</a></footer>
+  </center>
+  <script src="script.js"></script>
+</body>
+</html>

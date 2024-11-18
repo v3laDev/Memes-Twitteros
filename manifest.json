@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Homicidiomental background changer",
+  "version": "3.5",
+  "description": "simplemente cambia el fondo de google con algunos memes conocidos de twitter. https://twitter.com/homicidiomental",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"]
+}
